@@ -24,9 +24,8 @@ public class DB {
 			log.debug(connectionUrl);
 			log.debug("使用DB.path对应的数据库");
 		} else {
-			connectionUrl = "jdbc:sqlserver://localhost:1433;databaseName=wwnb;user=wwnb;password=wwnb;";// 运行数据库地址
+			connectionUrl = "jdbc:sqlserver://116.62.24.156:1433;databaseName=wwnb;user=wwnb;password=CQUa1502;";// 运行数据库地址
 			log.debug("使用默认数据库");
-
 		}
 		log.debug("数据库URL" + connectionUrl);
 	}
